@@ -1,0 +1,7 @@
+#This is a .yaml configuration file.
+
+# It contains settings for loggin configuration.
+Logger:
+  type: "console" #Options: console, file
+  file_name: "project.log" #Only applicable if type if file
+  level: 2 #Logging level: 1 - ERROR, 2 - INFO, 3 - DEBUG
